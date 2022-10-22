@@ -1,0 +1,152 @@
+img {
+    width: 100%;
+    height: 100%
+}
+
+td {
+  width: 50%;
+  overflow: hidden;
+  text-align: left;
+  
+}
+table {
+    table-layout: fixed;
+}
+
+.photo {
+    margin: 50px auto;
+    border: 5px solid #fff;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.4), 0px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tape effect */
+.photo:after {
+    content: "";
+    height: 25px;
+    width: 80px;
+    background-color: rgba(255, 255, 255, .3);
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    transform: translateX(-30%) translateY(10%) rotate(-45deg);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.452);
+}
+
+h1 {
+    background-image: linear-gradient(to left, violet, indigo, blue, green,orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+
+/* https://w3bits.com/rainbow-text/ */
+#name {
+    font-size: 3em;
+  }
+
+body {
+    background-color: rgb(240, 227, 229);
+    background-image:
+    radial-gradient(rgb(134, 31, 175), rgba(62, 15, 231, 0.2) 2px, transparent 60px),
+    radial-gradient(rgb(134, 31, 175), rgba(62, 15, 231, 0.2) 1px, transparent 60px),
+    radial-gradient(rgb(134, 31, 175), rgba(62, 15, 231, 0.2) 2px, transparent 60px),
+    radial-gradient(rgb(134, 31, 175), rgba(62, 15, 231, 0.2) 2px, transparent 60px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    text-align: center;
+    font-family:'Lucida Sans';
+}
+
+ul, ol {
+    display: inline-block;
+}
+
+
+p {
+    font-size: 1.5em;
+    color: rgb(68, 0, 255);
+}
+
+/* http://jsfiddle.net/F6nMg/ */
+/* https://stackoverflow.com/questions/16629835/how-to-make-navigation-bar-stretch-across-the-page-html#comment23913317_16629835 */
+#nav {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    background-color: #cf1717;
+    border-radius: 10px;
+    height:6.5em;
+    --border-size: 0.5rem;
+    border: var(--border-size) dotted lime;
+    background-image: linear-gradient(
+        to right,
+        rgb(255 255 255 / 0.5),
+        rgb(255 255 255 / 0.5)
+      ),
+      conic-gradient(
+        from 45deg,
+        #d53e33 0deg 90deg,
+        #fbb300 90deg 180deg,
+        #377af5 180deg 270deg,
+        #399953 270deg 360deg
+      );
+}
+
+#nav ul {
+
+    list-style-type: none;
+    width: 100%; 
+    margin:0.75em;
+}
+
+#nav li {
+    margin: 0px;
+}
+
+#nav li a {
+    padding: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.5ex;
+    color: #FFFFFF;
+    background-color: #cf1717;
+    float: left;
+    width: 20%;
+}
+
+#nav li a:hover {
+    color: #FFFFFF;
+    background-color: #0d7412;
+}
+
+#experience {
+    color: rgb(255, 0, 179);
+}
+
+#experience-list, #point-list {
+    text-align: left;
+    margin: 0px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: rgb(255, 0, 179);
+}
+
+/* FOR GOOD PAGE:
+http://jsfiddle.net/x5vyC/3957/
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+#side-points {
+    background-color: #0d7412;
+    width: 30%;
+} */
+

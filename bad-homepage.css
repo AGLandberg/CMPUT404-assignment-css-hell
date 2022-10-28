@@ -22,7 +22,10 @@ table {
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.4), 0px 20px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Tape effect */
+/* Tape effect based off of the following tutorial: 
+Author: Xin Sun
+URL: https://accessun.github.io/2016/10/16/Make-a-Tape-Photo-by-CSS/
+*/
 .photo:after {
     content: "";
     height: 25px;
@@ -42,7 +45,9 @@ h1 {
     text-transform: uppercase;
 }
 
-/* https://w3bits.com/rainbow-text/ */
+/* Create rainbow text: 
+Author: Rahul
+URL: https://w3bits.com/rainbow-text/ */
 #name {
     font-size: 3em;
   }
@@ -70,8 +75,6 @@ p {
     color: rgb(68, 0, 255);
 }
 
-/* http://jsfiddle.net/F6nMg/ */
-/* https://stackoverflow.com/questions/16629835/how-to-make-navigation-bar-stretch-across-the-page-html#comment23913317_16629835 */
 #nav {
     display:flex;
     justify-content: center;
@@ -136,17 +139,4 @@ p {
     font-weight: bolder;
     color: rgb(255, 0, 179);
 }
-
-/* FOR GOOD PAGE:
-http://jsfiddle.net/x5vyC/3957/
-#main-content {
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-}
-
-#side-points {
-    background-color: #0d7412;
-    width: 30%;
-} */
 

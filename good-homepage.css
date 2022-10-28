@@ -46,7 +46,9 @@ h1 {
     color: black;
 }
 
-/* https://stackoverflow.com/questions/4772906/css-is-it-possible-to-add-a-black-outline-around-each-character-in-text */
+/* Used following thread to make css for creating black outline around text: 
+Author: Yi Jiang
+URL: https://stackoverflow.com/questions/4772906/css-is-it-possible-to-add-a-black-outline-around-each-character-in-text */
 #first {
     color: white;
     /* font-size: 2em; */
@@ -72,8 +74,10 @@ p {
     font-size: 1.5em;
 }
 
-/* http://jsfiddle.net/F6nMg/ */
-/* https://stackoverflow.com/questions/16629835/how-to-make-navigation-bar-stretch-across-the-page-html#comment23913317_16629835 */
+
+/* Make navigation bar stretch across a page:
+Author: DaveR
+URL: https://stackoverflow.com/questions/16629835/how-to-make-navigation-bar-stretch-across-the-page-html#comment23913317_16629835 */
 #nav {
     display:flex;
     justify-content: center;
@@ -112,8 +116,6 @@ p {
     font-size: 1.5em
 }
 
-/* FOR GOOD PAGE:
-http://jsfiddle.net/x5vyC/3957/ */
 #main-content {
     display: flex;
     justify-content: space-between;
@@ -150,7 +152,6 @@ http://jsfiddle.net/x5vyC/3957/ */
 }
 
 
-/* https://code.tutsplus.com/tutorials/create-a-sticky-note-effect-in-5-easy-steps-with-css3-and-html5--net-13934 */
 #point-list {
     display: flex;
     flex-wrap: wrap;
@@ -158,7 +159,11 @@ http://jsfiddle.net/x5vyC/3957/ */
 
 }
 
-/* Make fun fact list elements into post-it notes  */
+/* Make fun fact list elements into post-it notes. 
+Based following code for creating sticky note effect off of the following tutorial:
+Author: Chris Heilmann
+URL: https://code.tutsplus.com/tutorials/create-a-sticky-note-effect-in-5-easy-steps-with-css3-and-html5--net-13934 */
+
 #point-list li{
     text-decoration:none;
     color:#000;
@@ -172,7 +177,11 @@ http://jsfiddle.net/x5vyC/3957/ */
     position: relative;
   }
 
-  /* Add tape effect to post-it notes*/
+  
+/* Tape effect based off of the following tutorial: 
+Author: Xin Sun
+URL: https://accessun.github.io/2016/10/16/Make-a-Tape-Photo-by-CSS/
+*/
   #point-list li::before {
     content: "";
     height: 25px;
